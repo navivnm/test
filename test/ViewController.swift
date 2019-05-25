@@ -15,8 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         print("hello")
+        let abc = 10
+        for i in 1...abc {
+            print(i)
+        }
     }
-
-
 }
 
