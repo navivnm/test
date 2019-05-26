@@ -33,7 +33,7 @@ class testTests: XCTestCase
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         print("***---***")
-        let a = 10
+        let a = 1
         viewController.funcPrint(abc: a)
         XCTAssertEqual(viewController.total, 20, "running")
     }
