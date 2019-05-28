@@ -6,10 +6,12 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'macos-latest'
+- job: macOS
+  pool:
+    vmImage: 'macOS-10.14'
 
 steps:
+- script: echo hello from macOS
 - task: Xcode@5
   inputs:
     actions: 'build'
