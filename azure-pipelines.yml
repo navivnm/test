@@ -6,8 +6,8 @@
 trigger:
 - master
 
-jobes:
--job: macOS
+jobs:
+- job: macOS
 pool:
   vmImage: 'macos-latest'
 
