@@ -6,10 +6,8 @@
 trigger:
 - master
 
-jobs:
-- job: macOS
 pool:
-  vmImage: 'macOS-10.14'
+  vmImage: 'macos-latest'
 
 steps:
 - task: Xcode@5
@@ -20,4 +18,3 @@ steps:
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, default, specifyPath
-    useXcpretty: 'false'
