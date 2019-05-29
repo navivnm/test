@@ -13,8 +13,8 @@ pool:
  # - $SRC_ROOT/../../../SourceryTemplates/
 #output:
  # test/GeneratedStubs
-templates:
-  - ../SourceryTemplates/
+#templates:
+ # - ../SourceryTemplates/
 steps:
 - task: Xcode@5
   inputs:
