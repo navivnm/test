@@ -5,7 +5,16 @@
 
 pool:
   vmImage: 'macOS-10.14'
-
+  
+#sources:
+ # - test
+  #- $SRC_ROOT/../../../CommonCode
+#templates:
+ # - $SRC_ROOT/../../../SourceryTemplates/
+#output:
+ # test/GeneratedStubs
+#templates:
+ # - ../SourceryTemplates/
 steps:
 - task: Xcode@5
   inputs:
